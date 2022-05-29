@@ -13,14 +13,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Button type="primary">This is a test</Button>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Check my <a href="https://github.com/idrisay">GitHub</a> Account
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          This will be my portfolio web site.
         </p>
 
         <div className={styles.grid}>
