@@ -1,5 +1,9 @@
-.home{
+.home {
   margin-left: 160px;
-  
 }
 
+@media only screen and (max-width: 600px) {
+  .home {
+    margin-left: 100px;
+  }
+}
