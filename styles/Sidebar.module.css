@@ -1,9 +1,4 @@
 .sidebar {
-  /* width: 25vw;
-  background-color: #264653;
-  height: 100vh;
-  display: flex;
-  flex-direction: column; */
   height: 100vh; /* Full-height: remove this if you want "auto" height */
   width: 160px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
@@ -59,10 +54,13 @@
   .navContainer ul li a {
     font-size: 1rem;
   }
+  .sidebar {
+    width: 100px; 
+  }
 }
 
 .nav__copyright {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   color: #e76f51;
 }
