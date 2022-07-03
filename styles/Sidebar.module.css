@@ -1,0 +1,44 @@
+.sidebar{
+    width: 20vw;
+    background-color: #264653;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.imgContainer img{
+    width: 90%;
+    border-radius: 50%;
+}
+
+.navContainer{
+    display: flex;
+    justify-content: center;
+}
+.navContainer ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.navContainer ul li{
+    list-style: none;
+    text-align: center;
+}
+
+.navContainer ul li a{
+    color: #f4a261;
+    font-size: 1.5rem;
+}
+
+.nav__copyright{
+    
+}

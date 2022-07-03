@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { Button, Space, DatePicker, Card } from 'antd'
+import Main  from '../components/main'
 
 export default function Home() {
   return (
@@ -11,11 +12,10 @@ export default function Home() {
         <link rel="icon" href="/dev.webp" />
       </Head>
 
-      <main className={styles.main}>
-        <div>
-          Header
-        </div>
-      </main>
+      <div className={styles.home}>
+       <Main/>
+      </div>
+
     </div>
   )
 }

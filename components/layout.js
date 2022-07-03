@@ -1,12 +1,11 @@
-import Navbar from './navbar'
-import Footer from './footer'
+import Sidebar from './sidebar'
+import styles from '../styles/Layout.module.css';
 
 export default function Layout({ children }) {
   return (
-    <>
-      <Navbar />
+    <div className={styles.layout}>
+      <Sidebar/>
       <main>{children}</main>
-      <Footer />
-    </>
+    </div>
   )
 }
