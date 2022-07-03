@@ -6,7 +6,7 @@ const date = new Date().getFullYear();
 const sidebar = () => {
   return (
     <nav className={styles.sidebar}>
-      <div>
+      <div className={styles.sidebar__top}>
         <div className={styles.imgContainer}>
           <img
             src="https://nutfzx.csb.app/assets/profile.jpg"
@@ -33,7 +33,7 @@ const sidebar = () => {
       <div className={styles.nav__copyright}>
         Copyright &copy; {date}
         <br />
-        All rights reserved | Idris AY
+        Idris AY
       </div>
     </nav>
   );
