@@ -1,7 +1,5 @@
 .home{
-  display: flex;
-  flex-direction: row;
-  min-height: 100vh;
-  background-color: #E9C36A;
-  width: 75vw;
+  margin-left: 160px;
+  
 }
+

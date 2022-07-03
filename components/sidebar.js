@@ -7,7 +7,7 @@ const sidebar = () => {
   return (
     <nav className={styles.sidebar}>
       <div className={styles.sidebar__top}>
-        <div className={styles.imgContainer}>
+        <div className={styles.img_container}>
           <img
             src="https://nutfzx.csb.app/assets/profile.jpg"
             alt="profile-image"
@@ -26,6 +26,9 @@ const sidebar = () => {
             </li>
             <li>
               <a href="#interests">Interests</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
